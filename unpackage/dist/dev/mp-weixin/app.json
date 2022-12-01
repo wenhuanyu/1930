@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/login/login",
+    "pages/setting/setting/setting",
+    "pages/ziliao/ziliao/ziliao",
+    "pages/customer/customer/customer",
+    "pages/customer/add/add",
+    "pages/customer/details/details",
+    "pages/goods/goods/goods",
+    "pages/goods/add/add",
+    "pages/customer/entry/entry"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#D0D0D9",
+    "selectedColor": "#2578FF",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/index.png",
+        "selectedIconPath": "static/image/index-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/image/user.png",
+        "selectedIconPath": "static/image/user-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}
